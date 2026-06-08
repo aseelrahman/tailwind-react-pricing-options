@@ -1,12 +1,12 @@
 import "./App.css";
-import DaisyNav from "./assets/components/DaisyNav/DaisyNav";
+// import DaisyNav from "./assets/components/DaisyNav/DaisyNav";
 import NavBar from "./assets/components/NavBar/NavBar";
 
 function App() {
   return (
     <>
       <NavBar />
-      <DaisyNav />
+      {/* <DaisyNav /> */}
 
       <h1 className="text-7xl font-bold underline">Vite + React</h1>
 

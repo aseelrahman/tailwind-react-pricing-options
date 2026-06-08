@@ -40,10 +40,10 @@ const NavBar = () => {
   const links = navItems.map((item) => <Link key={item.id} item={item} />);
 
   return (
-    <nav className="flex justify-between mx-6 my-3">
+    <nav className="flex justify-between mx-6 my-4 ">
       <span className="flex gap-2" onClick={() => setOpen(!open)}>
         {open ? <X className="md:hidden" /> : <Menu className="md:hidden" />}
-        <ul className="md:hidden">{links}</ul>
+        <ul className={`md:hidden absolute duration-1000 ${open? 'top-10' : '-top-40'} bg-amber-300 text-black`}>{links}</ul>
 
         <h3>My Navbar</h3>
       </span>
