@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "price": 29,
+    "billing": "month",
+    "description": "A great option for building a consistent workout routine.",
+    "features": [
+      "Full gym access",
+      "Locker room access",
+      "Free fitness assessment",
+      "Mobile app access",
+      "Standard operating hours",
+      "Access to cardio equipment",
+      "Access to strength training area",
+      "Workout tracking",
+      "Community challenges",
+      "Free Wi-Fi"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Performance",
+    "popular": true,
+    "price": 59,
+    "billing": "month",
+    "description": "Designed for those looking to accelerate their fitness results.",
+    "features": [
+      "Everything in Starter",
+      "Unlimited group classes",
+      "Personalized workout plan",
+      "Nutrition consultation",
+      "Progress tracking",
+      "Priority booking",
+      "Monthly body composition scan",
+      "Guest pass every month",
+      "Access to functional training zone",
+      "Exclusive fitness workshops",
+      "Priority customer support"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Elite",
+    "price": 99,
+    "billing": "month",
+    "description": "The ultimate fitness experience with premium coaching and perks.",
+    "features": [
+      "Everything in Performance",
+      "4 personal training sessions per month",
+      "Custom nutrition plan",
+      "24/7 gym access",
+      "Recovery & stretching zone access",
+      "VIP locker access",
+      "Monthly body composition analysis",
+      "Unlimited guest passes",
+      "Access to premium classes",
+      "Recovery massage discounts",
+      "Sauna access",
+      "Priority equipment reservations",
+      "Quarterly fitness strategy sessions",
+      "Exclusive member events"
+    ]
+  }
+]
