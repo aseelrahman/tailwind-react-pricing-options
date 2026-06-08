@@ -1,0 +1,91 @@
+import { Line, LineChart, Tooltip, XAxis, YAxis } from "recharts";
+
+const ResultsChart = () => {
+  const resultData = [
+    {
+      id: 1,
+      name: "John",
+      physics: 92,
+      chemistry: 88,
+      math: 95,
+    },
+    {
+      id: 2,
+      name: "Emma",
+      physics: 85,
+      chemistry: 91,
+      math: 89,
+    },
+    {
+      id: 3,
+      name: "Michael",
+      physics: 78,
+      chemistry: 82,
+      math: 75,
+    },
+    {
+      id: 4,
+      name: "Sophia",
+      physics: 96,
+      chemistry: 94,
+      math: 98,
+    },
+    {
+      id: 5,
+      name: "Daniel",
+      physics: 81,
+      chemistry: 79,
+      math: 84,
+    },
+    {
+      id: 6,
+      name: "Olivia",
+      physics: 88,
+      chemistry: 90,
+      math: 87,
+    },
+    {
+      id: 7,
+      name: "James",
+      physics: 72,
+      chemistry: 76,
+      math: 74,
+    },
+    {
+      id: 8,
+      name: "Ava",
+      physics: 99,
+      chemistry: 97,
+      math: 100,
+    },
+    {
+      id: 9,
+      name: "William",
+      physics: 84,
+      chemistry: 86,
+      math: 82,
+    },
+    {
+      id: 10,
+      name: "Isabella",
+      physics: 91,
+      chemistry: 93,
+      math: 90,
+    },
+  ];
+  return (
+    <div>
+      <LineChart width={1000} height={500} data={resultData}>
+        <Tooltip />
+        <XAxis dataKey={'name'} stroke="blue"/>
+        <YAxis stroke="red" />
+        <Line dataKey="math"  />
+        <Line dataKey="chemistry" stroke="red" />
+        <Line dataKey="physics" stroke="green"/>
+
+      </LineChart>
+    </div>
+  );
+};
+
+export default ResultsChart;
