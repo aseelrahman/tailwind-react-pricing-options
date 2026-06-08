@@ -1,9 +1,7 @@
 
-const Link = () => {
+const Link = ({item}) => {
     return (
-       <li>
-        <a href=""></a>
-       </li>
+       <li><a href={item.path}>{item.name}</a></li>
     );
 };
 
